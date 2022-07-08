@@ -1,9 +1,9 @@
-FROM alielsayed76/arbawy:slim-buster
+FROM alielsayed76/TelArbawy:slim-buster
 
 #clonning repo 
-RUN git clone https://github.com/alielsayed76/TelArbawy/tree/main.git /root/arbawy
+RUN git clone https://github.com/alielsayed76/TelArbawy/tree/main.git /root/TelArbawy
 #working directory 
-WORKDIR /root/arbawy
+WORKDIR /root/TelArbawy
 
 # Install requirements
 RUN pip3 install --no-cache-dir -r requirements.txt
