@@ -8,6 +8,6 @@ WORKDIR /root/arbawy
 # Install requirements
 RUN pip3 install --no-cache-dir -r requirements.txt
 
-ENV PATH="/home/arbawy/bin:$PATH"
+ENV PATH="/home/TelArbawy/bin:$PATH"
 
-CMD ["python3","-m","arbawy"]
+CMD ["python3","-m","TelArbawy"]
