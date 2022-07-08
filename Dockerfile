@@ -1,4 +1,4 @@
-FROM alielsayed76/TelArbawy:slim-buster
+FROM alielsayed76/arbawy:slim-buster
 
 #clonning repo 
 RUN git clone https://github.com/alielsayed76/TelArbawy/tree/main.git /root/arbawy
