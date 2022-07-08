@@ -1,7 +1,7 @@
 FROM lMl10l/userbot:slim-buster
 
 #clonning repo 
-RUN git clone https://github.com/alielsayed76/TeleArbawy/tree/main.git /root/arbawy
+RUN git clone https://github.com/alielsayed76/TelArbawy/tree/main.git /root/arbawy
 #working directory 
 WORKDIR /root/arbawy
 
