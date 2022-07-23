@@ -1,7 +1,7 @@
-FROM alielsayed76/arbawy:alpine
+FROM alielsayed76/sbb_b:alpine
 
 #clonning repo 
-RUN git clone https://github.com/alielsayed76/arbawy/tree/main.git /root/arbawy
+RUN git clone https://github.com/alielsayed76/sbb_b/tree/main.git /root/arbawy
 #working directory 
 WORKDIR /root/arbawy
 
